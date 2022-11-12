@@ -1,1 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:x2="urn:schemas-microsoft-com:office:excel2" xmlns:html="http://www.w3.org/TR/REC-html40" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+ <x:ExcelWorkbook>
+  <x:ActiveSheet>0</x:ActiveSheet>
+ </x:ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <ss:Alignment ss:Vertical="Bottom" />
+   <ss:Font ss:Color="#000000" ss:FontName="Arial" ss:Size="10" />
+  </Style>
+  <Style ss:ID="S21">
+   <ss:Alignment ss:Vertical="Bottom" />
+   <ss:Font ss:Bold="1" ss:Color="#000000" ss:FontName="Arial" ss:Size="10" />
+  </Style>
+  <Style ss:ID="S22">
+   <ss:Alignment ss:Vertical="Bottom" />
+   <ss:Borders>
+    <ss:Border ss:Position="Left" ss:Color="#000000" ss:LineStyle="Continuous" ss:Weight="1" />
+    <ss:Border ss:Position="Top" ss:Color="#000000" ss:LineStyle="Continuous" ss:Weight="1" />
+    <ss:Border ss:Position="Bottom" ss:Color="#000000" ss:LineStyle="Continuous" ss:Weight="1" />
+   </ss:Borders>
+   <ss:Font ss:Bold="1" ss:Color="#000000" ss:FontName="Arial" ss:Size="10" />
+  </Style>
+  <Style ss:ID="S23">
+   <ss:Alignment ss:Vertical="Bottom" />
+   <ss:Borders>
+    <ss:Border ss:Position="Top" ss:Color="#000000" ss:LineStyle="Continuous" ss:Weight="1" />
+    <ss:Border ss:Position="Right" ss:Color="#000000" ss:LineStyle="Continuous" ss:Weight="1" />
+    <ss:Border ss:Position="Bottom" ss:Color="#000000" ss:LineStyle="Continuous" ss:Weight="1" />
+   </ss:Borders>
+   <ss:Font ss:Color="#000000" ss:FontName="Arial" ss:Size="10" />
+  </Style>
+  <Style ss:ID="S24">
+   <ss:Alignment ss:Vertical="Bottom" />
+   <ss:Borders>
+    <ss:Border ss:Position="Top" ss:Color="#000000" ss:LineStyle="Continuous" ss:Weight="1" />
+    <ss:Border ss:Position="Bottom" ss:Color="#000000" ss:LineStyle="Continuous" ss:Weight="1" />
+   </ss:Borders>
+   <ss:Font ss:Color="#000000" ss:FontName="Arial" ss:Size="10" />
+  </Style>
+  <Style ss:ID="S25">
+   <ss:Alignment ss:Vertical="Bottom" />
+   <ss:Borders>
+    <ss:Border ss:Position="Left" ss:Color="#000000" ss:LineStyle="Continuous" ss:Weight="1" />
+    <ss:Border ss:Position="Top" ss:Color="#000000" ss:LineStyle="Continuous" ss:Weight="1" />
+    <ss:Border ss:Position="Right" ss:Color="#000000" ss:LineStyle="Continuous" ss:Weight="1" />
+    <ss:Border ss:Position="Bottom" ss:Color="#000000" ss:LineStyle="Continuous" ss:Weight="1" />
+   </ss:Borders>
+   <ss:Font ss:Bold="1" ss:Color="#000000" ss:FontName="Arial" ss:Size="10" />
+  </Style>
+  <Style ss:ID="S26">
+   <ss:Alignment ss:Vertical="Top" ss:WrapText="1" />
+   <ss:Borders>
+    <ss:Border ss:Position="Left" ss:Color="#000000" ss:LineStyle="Continuous" ss:Weight="1" />
+    <ss:Border ss:Position="Top" ss:Color="#000000" ss:LineStyle="Continuous" ss:Weight="1" />
+    <ss:Border ss:Position="Right" ss:Color="#000000" ss:LineStyle="Continuous" ss:Weight="1" />
+    <ss:Border ss:Position="Bottom" ss:Color="#000000" ss:LineStyle="Continuous" ss:Weight="1" />
+   </ss:Borders>
+   <ss:Font ss:Color="#000000" ss:FontName="Arial" ss:Size="10" />
+  </Style>
+  <Style ss:ID="S27">
+   <ss:Alignment ss:Vertical="Top" ss:WrapText="1" />
+   <ss:Borders>
+    <ss:Border ss:Position="Left" ss:Color="#000000" ss:LineStyle="Continuous" ss:Weight="1" />
+    <ss:Border ss:Position="Top" ss:Color="#000000" ss:LineStyle="Continuous" ss:Weight="1" />
+    <ss:Border ss:Position="Right" ss:Color="#000000" ss:LineStyle="Continuous" ss:Weight="1" />
+    <ss:Border ss:Position="Bottom" ss:Color="#000000" ss:LineStyle="Continuous" ss:Weight="1" />
+   </ss:Borders>
+   <ss:Font ss:Color="#0000FF" ss:FontName="Arial" ss:Size="10" ss:Underline="Single" />
+  </Style>
+  <Style ss:ID="S28">
+   <ss:Alignment ss:Vertical="Top" />
+   <ss:Borders>
+    <ss:Border ss:Position="Left" ss:Color="#000000" ss:LineStyle="Continuous" ss:Weight="1" />
+    <ss:Border ss:Position="Top" ss:Color="#000000" ss:LineStyle="Continuous" ss:Weight="1" />
+    <ss:Border ss:Position="Right" ss:Color="#000000" ss:LineStyle="Continuous" ss:Weight="1" />
+    <ss:Border ss:Position="Bottom" ss:Color="#000000" ss:LineStyle="Continuous" ss:Weight="1" />
+   </ss:Borders>
+   <ss:Font ss:Color="#000000" ss:FontName="Arial" ss:Size="10" />
+  </Style>
+  <Style ss:ID="S29">
+   <ss:Alignment ss:Vertical="Top" ss:WrapText="1" />
+   <ss:Borders>
+    <ss:Border ss:Position="Left" ss:Color="#000000" ss:LineStyle="Continuous" ss:Weight="1" />
+    <ss:Border ss:Position="Top" ss:Color="#000000" ss:LineStyle="Continuous" ss:Weight="1" />
+    <ss:Border ss:Position="Right" ss:Color="#000000" ss:LineStyle="Continuous" ss:Weight="1" />
+    <ss:Border ss:Position="Bottom" ss:Color="#000000" ss:LineStyle="Continuous" ss:Weight="1" />
+   </ss:Borders>
+   <ss:Font ss:Color="#000000" ss:FontName="Arial" ss:Size="10" />
+  </Style>
+  <Style ss:ID="S30">
+   <ss:Alignment ss:Vertical="Top" ss:WrapText="1" />
+   <ss:Borders>
+    <ss:Border ss:Position="Left" ss:Color="#000000" ss:LineStyle="Continuous" ss:Weight="1" />
+    <ss:Border ss:Position="Top" ss:Color="#000000" ss:LineStyle="Continuous" ss:Weight="1" />
+    <ss:Border ss:Position="Right" ss:Color="#000000" ss:LineStyle="Continuous" ss:Weight="1" />
+    <ss:Border ss:Position="Bottom" ss:Color="#000000" ss:LineStyle="Continuous" ss:Weight="1" />
+   </ss:Borders>
+   <ss:Font ss:Color="#0000FF" ss:FontName="Arial" ss:Size="10" ss:Underline="Single" />
+  </Style>
+  <Style ss:ID="S31">
+   <ss:Alignment ss:Vertical="Top" ss:WrapText="1" />
+   <ss:Borders>
+    <ss:Border ss:Position="Left" ss:Color="#000000" ss:LineStyle="Continuous" ss:Weight="1" />
+    <ss:Border ss:Position="Top" ss:Color="#000000" ss:LineStyle="Continuous" ss:Weight="1" />
+    <ss:Border ss:Position="Right" ss:Color="#000000" ss:LineStyle="Continuous" ss:Weight="1" />
+    <ss:Border ss:Position="Bottom" ss:Color="#000000" ss:LineStyle="Continuous" ss:Weight="1" />
+   </ss:Borders>
+   <ss:Font ss:Color="#0000FF" ss:FontName="Arial" ss:Size="10" ss:Underline="Single" />
+  </Style>
+  <Style ss:ID="S32">
+   <ss:Alignment ss:Vertical="Top" />
+   <ss:Borders>
+    <ss:Border ss:Position="Left" ss:Color="#000000" ss:LineStyle="Continuous" ss:Weight="1" />
+    <ss:Border ss:Position="Top" ss:Color="#000000" ss:LineStyle="Continuous" ss:Weight="1" />
+    <ss:Border ss:Position="Right" ss:Color="#000000" ss:LineStyle="Continuous" ss:Weight="1" />
+    <ss:Border ss:Position="Bottom" ss:Color="#000000" ss:LineStyle="Continuous" ss:Weight="1" />
+   </ss:Borders>
+   <ss:Font ss:Color="#000000" ss:FontName="Arial" ss:Size="10" />
+  </Style>
+  <Style ss:ID="S33">
+   <ss:Alignment ss:Vertical="Top" ss:WrapText="1" />
+   <ss:Borders>
+    <ss:Border ss:Position="Left" ss:Color="#000000" ss:LineStyle="Continuous" ss:Weight="1" />
+    <ss:Border ss:Position="Top" ss:Color="#000000" ss:LineStyle="Continuous" ss:Weight="1" />
+    <ss:Border ss:Position="Right" ss:Color="#000000" ss:LineStyle="Continuous" ss:Weight="1" />
+    <ss:Border ss:Position="Bottom" ss:Color="#000000" ss:LineStyle="Continuous" ss:Weight="1" />
+   </ss:Borders>
+   <ss:Font ss:Color="#000000" ss:FontName="Arial" ss:Size="10" />
+  </Style>
+  <Style ss:ID="S34">
+   <ss:Alignment ss:Vertical="Top" />
+   <ss:Font ss:Color="#000000" ss:FontName="Arial" ss:Size="10" />
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Лист1">
+  <ss:Names />
+  <ss:Table ss:DefaultRowHeight="15.75" ss:DefaultColumnWidth="66" ss:ExpandedRowCount="18" ss:ExpandedColumnCount="9">
+   <Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="81.75" />
+   <Column ss:Index="4" ss:AutoFitWidth="0" ss:Width="112.5" />
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="92.25" />
+   <Column ss:Index="6" ss:AutoFitWidth="0" ss:Width="89.25" />
+   <Column ss:Index="9" ss:AutoFitWidth="0" ss:Width="75" />
+   <Row ss:Index="1">
+    <Cell ss:Index="2" ss:StyleID="S21" />
+    <Cell ss:StyleID="S21" />
+    <Cell ss:StyleID="S21" />
+    <Cell ss:StyleID="S21" />
+    <Cell ss:StyleID="S21" />
+    <Cell ss:StyleID="S21" />
+    <Cell ss:StyleID="S21" />
+    <Cell ss:StyleID="S21" />
+   </Row>
+   <Row ss:Index="2">
+    <Cell ss:Index="2" ss:StyleID="S21" />
+    <Cell ss:StyleID="S21" />
+    <Cell ss:StyleID="S21" />
+    <Cell ss:StyleID="S21" />
+    <Cell ss:StyleID="S21" />
+    <Cell ss:StyleID="S21" />
+    <Cell ss:StyleID="S21" />
+    <Cell ss:StyleID="S21" />
+   </Row>
+   <Row ss:Index="3">
+    <Cell ss:Index="2" ss:MergeAcross="1" ss:MergeDown="0" ss:StyleID="S25"><Data ss:Type="String">ENVIRONMENT</Data>
+    </Cell>
+    <Cell ss:Index="4" ss:MergeAcross="5" ss:MergeDown="0" ss:StyleID="S25"><Data ss:Type="String">iPhone 11, iOS 15.3.1</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="4">
+    <Cell ss:Index="2" ss:StyleID="S25"><Data ss:Type="String">ID</Data>
+    </Cell>
+    <Cell ss:StyleID="S25"><Data ss:Type="String">TITLE</Data>
+    </Cell>
+    <Cell ss:StyleID="S25"><Data ss:Type="String">STEPS</Data>
+    </Cell>
+    <Cell ss:StyleID="S25"><Data ss:Type="String">ACTUAL RESULT</Data>
+    </Cell>
+    <Cell ss:StyleID="S25"><Data ss:Type="String">EXPECTED RESULT</Data>
+    </Cell>
+    <Cell ss:StyleID="S25"><Data ss:Type="String">SEVERITY</Data>
+    </Cell>
+    <Cell ss:StyleID="S25"><Data ss:Type="String">PRIORITY</Data>
+    </Cell>
+    <Cell ss:StyleID="S25"><Data ss:Type="String">ATTACHMENTS</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="5">
+    <Cell ss:Index="2" ss:StyleID="S26"><Data ss:Type="String">ID1</Data>
+    </Cell>
+    <Cell ss:StyleID="S26"><Data ss:Type="String">At the open lesson screen swipe left leds forward instead of backward</Data>
+    </Cell>
+    <Cell ss:StyleID="S26"><Data ss:Type="String">1. Open the lesson at the Homepage&#10;2. Swipe left</Data>
+    </Cell>
+    <Cell ss:StyleID="S26"><Data ss:Type="String">Swipe left moves to the previous card</Data>
+    </Cell>
+    <Cell ss:StyleID="S26"><Data ss:Type="String">Swipe left moves to the next card in the lesson</Data>
+    </Cell>
+    <Cell ss:StyleID="S26"><Data ss:Type="String">LOW</Data>
+    </Cell>
+    <Cell ss:StyleID="S26"><Data ss:Type="String">P3</Data>
+    </Cell>
+    <Cell ss:StyleID="S27" ss:HRef="https://drive.google.com/file/d/10umcDfBBhrwhNlY_sqj_v2U4sicJntaf/view?usp=sharing"><Data ss:Type="String">https://drive.google.com/file/d/10umcDfBBhrwhNlY_sqj_v2U4sicJntaf/view?usp=sharing</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="6">
+    <Cell ss:Index="2" ss:StyleID="S28"><Data ss:Type="String">ID2</Data>
+    </Cell>
+    <Cell ss:StyleID="S29"><Data ss:Type="String">Section "About" at the CFD page contains description only in English</Data>
+    </Cell>
+    <Cell ss:StyleID="S29"><Data ss:Type="String">1. Open page CFD.&#10;2. Tap any item from the upper feed and scroll down for description</Data>
+    </Cell>
+    <Cell ss:StyleID="S29"><Data ss:Type="String">Description in the "About' section of the CFD screen is written on English notwithstanding the choosen language</Data>
+    </Cell>
+    <Cell ss:StyleID="S29"><Data ss:Type="String">"About" section is shown on language choosen by user</Data>
+    </Cell>
+    <Cell ss:StyleID="S28"><Data ss:Type="String">LOW</Data>
+    </Cell>
+    <Cell ss:StyleID="S28"><Data ss:Type="String">P3</Data>
+    </Cell>
+    <Cell ss:StyleID="S30" ss:HRef="https://drive.google.com/file/d/1E2R1jfMV5eZYEDlt1CxSlCXn1QIgK25q/view?usp=sharing"><Data ss:Type="String">https://drive.google.com/file/d/1E2R1jfMV5eZYEDlt1CxSlCXn1QIgK25q/view?usp=sharing</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="7">
+    <Cell ss:Index="2" ss:StyleID="S28"><Data ss:Type="String">ID3</Data>
+    </Cell>
+    <Cell ss:StyleID="S29"><Data ss:Type="String">Screen of the "Learn how to predict trends" goal has no button "Leave", only "Continue"</Data>
+    </Cell>
+    <Cell ss:StyleID="S29"><Data ss:Type="String">1. Choose &quot;Learn how to predict trends&quot; goal&#10;2. Complete one of the daily goals (give one right answer)&#10;3. See the notification</Data>
+    </Cell>
+    <Cell ss:StyleID="S29"><Data ss:Type="String">No button "Leave" is available</Data>
+    </Cell>
+    <Cell ss:StyleID="S29"><Data ss:Type="String">There is a choice to leave or to continue, with 2 corresponding buttons</Data>
+    </Cell>
+    <Cell ss:StyleID="S28"><Data ss:Type="String">LOW</Data>
+    </Cell>
+    <Cell ss:StyleID="S28"><Data ss:Type="String">P3</Data>
+    </Cell>
+    <Cell ss:StyleID="S31" ss:HRef="https://drive.google.com/file/d/1ceYl2EkaewtD4UgE_Oesl3Ur-TdZ4Cw8/view?usp=sharing"><Data ss:Type="String">https://drive.google.com/file/d/1ceYl2EkaewtD4UgE_Oesl3Ur-TdZ4Cw8/view?usp=sharing</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="8">
+    <Cell ss:Index="2" ss:StyleID="S28"><Data ss:Type="String">ID4</Data>
+    </Cell>
+    <Cell ss:StyleID="S29"><Data ss:Type="String">At the CFD screen time gaps and real time under the diagram are mismatching</Data>
+    </Cell>
+    <Cell ss:StyleID="S29"><Data ss:Type="String">1. Open CFD screen&#10;2. Check the time gaps and real time under the diagram</Data>
+    </Cell>
+    <Cell ss:StyleID="S29"><Data ss:Type="String">Real time and given time intervals are mismatching. When choosen 10 min changes, the real time show the changes of 10-4 mins.</Data>
+    </Cell>
+    <Cell ss:StyleID="S29"><Data ss:Type="String">The intervals for checking the market situation are corresponding the real time</Data>
+    </Cell>
+    <Cell ss:StyleID="S28"><Data ss:Type="String">LOW</Data>
+    </Cell>
+    <Cell ss:StyleID="S28"><Data ss:Type="String">P3</Data>
+    </Cell>
+    <Cell ss:StyleID="S31" ss:HRef="https://drive.google.com/file/d/1RyVh7CGyy6I0QMx4LfHfKRSGD6fexz9b/view?usp=sharing"><Data ss:Type="String">https://drive.google.com/file/d/1RyVh7CGyy6I0QMx4LfHfKRSGD6fexz9b/view?usp=sharing</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="9">
+    <Cell ss:Index="2" ss:StyleID="S28"><Data ss:Type="String">ID5</Data>
+    </Cell>
+    <Cell ss:StyleID="S29"><Data ss:Type="String">Option "Reminder" leads to the settings of the device without activation of the reminder</Data>
+    </Cell>
+    <Cell ss:StyleID="S28"><Data ss:Type="String">1. Open Settings screen&#10;2. Switch on reminder</Data>
+    </Cell>
+    <Cell ss:StyleID="S29"><Data ss:Type="String">Reminder activation leads to the settings of the device where there is no option to activate the reminder.</Data>
+    </Cell>
+    <Cell ss:StyleID="S29"><Data ss:Type="String">The activation of the reminder leads to the corresponding section of the settings. where the user can switch on reminder</Data>
+    </Cell>
+    <Cell ss:StyleID="S28"><Data ss:Type="String">LOW</Data>
+    </Cell>
+    <Cell ss:StyleID="S28"><Data ss:Type="String">P3</Data>
+    </Cell>
+    <Cell ss:StyleID="S31" ss:HRef="https://drive.google.com/file/d/13H86ttlkOws3qiCuaI0h4UxnHaj-04lP/view?usp=sharing"><Data ss:Type="String">https://drive.google.com/file/d/13H86ttlkOws3qiCuaI0h4UxnHaj-04lP/view?usp=sharing</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="10">
+    <Cell ss:Index="2" ss:StyleID="S32" />
+    <Cell ss:StyleID="S33" />
+    <Cell ss:StyleID="S32" />
+    <Cell ss:StyleID="S32" />
+    <Cell ss:StyleID="S32" />
+    <Cell ss:StyleID="S32" />
+    <Cell ss:StyleID="S32" />
+    <Cell ss:StyleID="S32" />
+   </Row>
+   <Row ss:Index="11">
+    <Cell ss:Index="2" ss:StyleID="S32" />
+    <Cell ss:StyleID="S33" />
+    <Cell ss:StyleID="S32" />
+    <Cell ss:StyleID="S32" />
+    <Cell ss:StyleID="S32" />
+    <Cell ss:StyleID="S32" />
+    <Cell ss:StyleID="S32" />
+    <Cell ss:StyleID="S32" />
+   </Row>
+   <Row ss:Index="12">
+    <Cell ss:Index="2" ss:StyleID="S32" />
+    <Cell ss:StyleID="S33" />
+    <Cell ss:StyleID="S32" />
+    <Cell ss:StyleID="S32" />
+    <Cell ss:StyleID="S32" />
+    <Cell ss:StyleID="S32" />
+    <Cell ss:StyleID="S32" />
+    <Cell ss:StyleID="S32" />
+   </Row>
+   <Row ss:Index="13">
+    <Cell ss:Index="2" ss:StyleID="S32" />
+    <Cell ss:StyleID="S33" />
+    <Cell ss:StyleID="S32" />
+    <Cell ss:StyleID="S32" />
+    <Cell ss:StyleID="S32" />
+    <Cell ss:StyleID="S32" />
+    <Cell ss:StyleID="S32" />
+    <Cell ss:StyleID="S32" />
+   </Row>
+   <Row ss:Index="14">
+    <Cell ss:Index="2" ss:StyleID="S32" />
+    <Cell ss:StyleID="S33" />
+    <Cell ss:StyleID="S32" />
+    <Cell ss:StyleID="S32" />
+    <Cell ss:StyleID="S32" />
+    <Cell ss:StyleID="S32" />
+    <Cell ss:StyleID="S32" />
+    <Cell ss:StyleID="S32" />
+   </Row>
+   <Row ss:Index="15">
+    <Cell ss:Index="2" ss:StyleID="S32" />
+    <Cell ss:StyleID="S33" />
+    <Cell ss:StyleID="S32" />
+    <Cell ss:StyleID="S32" />
+    <Cell ss:StyleID="S32" />
+    <Cell ss:StyleID="S32" />
+    <Cell ss:StyleID="S32" />
+    <Cell ss:StyleID="S32" />
+   </Row>
+   <Row ss:Index="16">
+    <Cell ss:Index="2" ss:StyleID="S32" />
+    <Cell ss:StyleID="S32" />
+    <Cell ss:StyleID="S32" />
+    <Cell ss:StyleID="S32" />
+    <Cell ss:StyleID="S32" />
+    <Cell ss:StyleID="S32" />
+    <Cell ss:StyleID="S32" />
+    <Cell ss:StyleID="S32" />
+   </Row>
+   <Row ss:Index="17">
+    <Cell ss:Index="2" ss:StyleID="S32" />
+    <Cell ss:StyleID="S32" />
+    <Cell ss:StyleID="S32" />
+    <Cell ss:StyleID="S32" />
+    <Cell ss:StyleID="S32" />
+    <Cell ss:StyleID="S32" />
+    <Cell ss:StyleID="S32" />
+    <Cell ss:StyleID="S32" />
+   </Row>
+   <Row ss:Index="18">
+    <Cell ss:Index="2" ss:StyleID="S34" />
+    <Cell ss:StyleID="S34" />
+    <Cell ss:StyleID="S34" />
+    <Cell ss:StyleID="S34" />
+    <Cell ss:StyleID="S34" />
+    <Cell ss:StyleID="S34" />
+    <Cell ss:StyleID="S34" />
+    <Cell ss:StyleID="S34" />
+   </Row>
+  </ss:Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup />
+   <Print>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
 
